@@ -10,11 +10,9 @@ steps:
     goals: 'compile package'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    codeCoverageToolOption: 'JaCoCo'
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
-    mavenAuthenticateFeed: false
-    effectivePomSkip: false
+    codeCoverageToolOption: 'Cobertura'
     sonarQubeRunAnalysis: true
     sqMavenPluginVersionChoice: 'latest'
     findBugsRunAnalysis: true
