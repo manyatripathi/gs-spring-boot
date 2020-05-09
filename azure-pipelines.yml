@@ -13,9 +13,6 @@ steps:
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
     codeCoverageToolOption: 'Cobertura'
-    sonarQubeRunAnalysis: true
-    sqMavenPluginVersionChoice: 'latest'
-    findBugsRunAnalysis: true
 
 - task: CopyFiles@2
   inputs:
